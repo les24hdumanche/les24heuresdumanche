@@ -15,9 +15,9 @@ description: > # this means to ignore newlines until "keywords:"
   Google search results) and in your feed.xml site description.
 keywords:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://les24heuresdumanche.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:  les24heuresdumanche
 
 # Build settings
 markdown: kramdown
