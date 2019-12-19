@@ -18,6 +18,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://les24heuresdumanche.com" # the base hostname & protocol for your site
 twitter_username:
 github_username:  les24heuresdumanche
+facebook_page: https://www.facebook.com/24h.du.manche/
+youtube_page: https://www.youtube.com/channel/UCNIQWbrVILyGUIfGV94c1_w
+soundcloud_page: https://soundcloud.com/les24hdumanche
 
 # Build settings
 markdown: kramdown
