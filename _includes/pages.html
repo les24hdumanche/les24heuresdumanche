@@ -1,7 +1,7 @@
 <div class="trigger">
-  {% for my_page in site.pages %}
-    {% if my_page.title %}
-    <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+  {% for cur_page in site.pages %}
+    {% if cur_page.title and cur_page.path contains 'informations' %}
+    <a class="page-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>
     {% endif %}
   {% endfor %}
 </div>
