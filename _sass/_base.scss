@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -24,8 +25,6 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -93,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    padding-left: 15px;
 
     &:visited {
         color: darken($brand-color, 15%);
