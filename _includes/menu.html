@@ -5,7 +5,7 @@
 <a class="page-link" href="{{ site.baseurl }}/">ACCUEIL</a>
 {% for cur_page in site.pages %}
   {% if cur_page.title and cur_page.path contains 'menu' %}
-    <a class="page-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>
+    <a class="page-link white-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>
   {% endif %}
 <!-- <a class="page-link" href="{{ site.dates }}">DATES</a>
 <a class="page-link" href="{{ site.soundcloud_page }}">NOUS ECOUTER</a>
