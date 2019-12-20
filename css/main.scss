@@ -14,9 +14,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       white;
+$text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      red;
+$brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -51,41 +51,3 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-
-
-html{
-    height: 100%;
-}
-
-body{
-    background-image: url(../res/img/print.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-}
-
-iframe{
-    max-height: 100px;
-}
-
-.menu{
-    margin: auto;
-    margin-top: 10%;
-    width: 50%;
-    margin-right: 10%;
-    margin-left: 35%;
- }
-
-.photo-gallery li{
-      float: left;
-      width: 45%;
-      padding: 5px;
-}
-
-.photos{
-  min-height: 200px;
-  max-height: 200px;
-  min-width: 300px;
-  max-width: 300px;
-}
