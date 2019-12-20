@@ -3,6 +3,7 @@ layout: page
 title: CONTACT
 permalink: /contact/
 ---
-https://www.facebook.com/24h.du.manche/
 
-les24hdumanche@gmail.com
+[Visit us on facebook](https://www.facebook.com/24h.du.manche/)
+
+You can also contact us via mail at:   les24hdumanche@gmail.com
