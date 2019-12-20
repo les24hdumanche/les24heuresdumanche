@@ -2,4 +2,28 @@
 layout: page
 title: PHOTOS/VIDEOS
 permalink: /medias/
+
+images:
+  - image_path: /res/img/24h_print.jpg
+    title: printaniere
+  - image_path: /res/img/24h_laiterie.jpg
+    title: laiterie
+  - image_path: /res/img/24h_laiterie.jpg
+    title: laiterie
+  - image_path: /res/img/24h_wtf.jpg
+    title: wtf
+  - image_path: /res/img/24h_print.jpg
+    title: printaniere
+  - image_path: /res/img/24h_laiterie.jpg
+    title: laiterie
 ---
+
+<ul class="photo-gallery">
+  <div class="row">
+  {% for image in page.images %}
+   <div class="column">
+    <li><img class="photos" src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+   </div>
+  {% endfor %}
+  </div>
+</ul>
