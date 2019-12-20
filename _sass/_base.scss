@@ -13,9 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
- html{
-   height: 100%;
- }
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -26,11 +24,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    background-image: url(../printaniere2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
 }
 
 /**
