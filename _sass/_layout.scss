@@ -1,8 +1,6 @@
 /**
  * Site header
  */
-
-
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -19,8 +17,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    top: 0px;
-    position: absolute;
 
     &,
     &:visited {

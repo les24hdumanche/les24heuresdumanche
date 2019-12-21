@@ -1,4 +1,4 @@
-<div class="trigger">
+<div class="trigger pages">
   {% for cur_page in site.pages %}
     {% if cur_page.title and cur_page.path contains 'informations' %}
     <a class="page-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>

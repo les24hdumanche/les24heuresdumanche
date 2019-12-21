@@ -1,20 +1,20 @@
 <div class="menu">
-<a class="page-link" href="{{ site.baseurl }}/">ACCUEIL</a>
-{% for cur_page in site.pages %}
-  {% if cur_page.title and cur_page.path contains 'menu' %}
-    <a class="page-link white-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>
+  <a class="page-link" href="{{ site.baseurl }}/">ACCUEIL</a>
+  {% for cur_page in site.pages %}
+    {% if cur_page.title and cur_page.path contains 'menu' %}
+      <a class="page-link white-link" href="{{ cur_page.url | prepend: site.baseurl }}">{{ cur_page.title }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if site.facebook_page %}
+    <a class="page-link" href="{{ site.facebook_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/facebook-logo-rounded-red.svg" /></a>
   {% endif %}
-{% endfor %}
 
-{% if site.facebook_page %}
-  <a class="page-link" href="{{ site.facebook_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/facebook-4.svg" /></a>
-{% endif %}
+  {% if site.youtube_page %}
+    <a class="page-link" href="{{ site.youtube_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/youtube-logo-rounded-red.svg" /></a>
+  {% endif %}
 
-{% if site.youtube_page %}
-  <a class="page-link" href="{{ site.youtube_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/youtube-9.svg" /></a>
-{% endif %}
-
-{% if site.soundcloud_page %}
-  <a class="page-link" href="{{ site.soundcloud_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/soundcloud-1.svg" /></a>
-{% endif %}
+  {% if site.soundcloud_page %}
+    <a class="page-link" href="{{ site.soundcloud_page }}"><img src="{{ my_page.url | prepend: site.baseurl }}/res/logo/soundcloud-logo-nobg-red.svg" /></a>
+  {% endif %}
 </div>
